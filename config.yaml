@@ -1,0 +1,22 @@
+# MovieLens HBase 项目配置
+
+hbase:
+  host: "192.168.56.103"
+  port: 9090
+  zk_quorum: ""
+  zk_port: "2181"
+  
+database:
+  movies_table: "movies"
+  ratings_table: "ratings"
+  
+server:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+  
+data:
+  csv_dir: "需要导入的数据"
+  movies_file: "movies.csv"
+  ratings_file: "ratings.csv"
+
